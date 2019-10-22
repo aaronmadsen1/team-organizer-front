@@ -1,0 +1,31 @@
+.student-draggable {
+  border: 1px solid black;
+  font-size: 1.2em;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  margin: 12px 15px;
+  height: 60px;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 3px -1px rgba(0, 0, 0, 0.54),
+    inset 0px 0px 14px 7px rgba(189, 189, 189, 0.527);
+}
+
+.student-card-content-wrapper {
+  display: flex;
+  align-items: center;
+
+  .student-name-wrapper {
+    display: flex;
+    width: 90%;
+    padding-left: 10%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .delete-button {
+    transform: translateX(-100%);
+    // text-align: right;
+    // margin-left: 50px;
+  }
+}

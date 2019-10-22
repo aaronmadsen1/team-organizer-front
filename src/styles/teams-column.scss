@@ -1,0 +1,36 @@
+// ******************** Center Teams Section ******************
+
+.teams-wrapper {
+  display: flex;
+  margin-left: 325px;
+  margin-right: 145px;
+  justify-content: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 90px;
+
+  .team-list {
+    border: 2px solid #454545;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 250px;
+    margin: 20px;
+    box-shadow: 6px 7px 14px 2px rgba(0, 0, 0, 0.54),
+      inset 0px 0px 60px 3px rgba(145, 145, 145, 0.46);
+
+    .team-title {
+      height: 50px;
+      width: 80%;
+      padding-top: 20px;
+      margin-bottom: 60px;
+      text-align: center;
+      border-radius: 5px;
+      font-size: 1.9em;
+      font-weight: 800;
+      background-color: #00cb78;
+      transform: translate(10%, 25px) skew(0deg, 8deg);
+      box-shadow: 7px 7px 7px 2px rgba(0, 0, 0, 0.54),
+        inset 25px 29px 33px -25px rgba(255, 255, 255, 1.54);
+    }
+  }
+}
