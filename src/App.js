@@ -47,6 +47,10 @@ const App = () => {
     console.log("hello")
   })
 
+  React.useEffect(() => {
+    window.scrollTo(0, 1)
+  })
+
   return (
     <div className="page-wrapper">
       <TitleBar />
@@ -81,7 +85,7 @@ const App = () => {
               </div>
 
               <div className="buttons">
-                <button className="add-button">Add Teams</button>
+                <button className="add-team-button">Add Teams</button>
               </div>
             </div>
           </form>
@@ -110,7 +114,9 @@ const App = () => {
                       </div>
 
                       <div className="buttons">
-                        <button className="add-button">Add Student</button>
+                        <button className="add-student-button">
+                          Add Student
+                        </button>
                       </div>
                     </div>
                   </form>
@@ -118,10 +124,12 @@ const App = () => {
 
                 <div className="unsorted-students-wrapper">
                   <div className="unsorted-header-text">Unsorted Students</div>
-                  <button className="random-assignment-button">
-                    Randomize
-                  </button>
-                  {renderStudents()}
+                  <div className="buttons">
+                    <button className="randomize-button">Randomize</button>
+                  </div>
+                  <div className="render-unsorted-students">
+                    {renderStudents()}
+                  </div>
                 </div>
               </div>
             )}
