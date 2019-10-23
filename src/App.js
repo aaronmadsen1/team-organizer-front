@@ -131,12 +131,9 @@ const App = () => {
             <TeamList students={students} number={"1"} />
             <TeamList students={students} number={"2"} />
             <TeamList students={students} number={"3"} />
-            <TeamList students={students} number={"3"} />
-            <TeamList students={students} number={"3"} />
-            <TeamList students={students} number={"3"} />
-            <TeamList students={students} number={"3"} />
-            <TeamList students={students} number={"3"} />
-            <TeamList students={students} number={"3"} />
+            <TeamList students={students} number={"4"} />
+            <TeamList students={students} number={"5"} />
+            <TeamList students={students} number={"6"} />
           </div>
         </div>
       </DragDropContext>
